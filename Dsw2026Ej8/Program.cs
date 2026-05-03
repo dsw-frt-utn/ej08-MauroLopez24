@@ -15,13 +15,17 @@
 
             Console.WriteLine(p3.CompararCopias(10, prod));*/
 
-            var p5 = new Problema5();
+            /*var p5 = new Problema5();
 
             Sale s1 = new RetailSale(1000);
             Sale s2 = new WholesaleSale(1000);
 
             Console.WriteLine(p5.ObtenerImporteFinal(s1));
-            Console.WriteLine(p5.ObtenerImporteFinal(s2)); 
+            Console.WriteLine(p5.ObtenerImporteFinal(s2)); */
+
+            var p6 = new Problema6();
+
+            Console.WriteLine(p6.NormalizarCodigoProducto(" ab 123 x "));
 
         }
     }
